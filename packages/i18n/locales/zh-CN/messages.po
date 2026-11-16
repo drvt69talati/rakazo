@@ -3795,6 +3795,7 @@ msgstr "无法移除此项目"
 msgid "Could not rename connection"
 msgstr "无法重命名连接"
 
+#: apps/mobile/lib/use-inbox-chat-actions.ts
 #: apps/web/src/pages/shell/dialogs.tsx
 msgid "Could not rename section"
 msgstr "无法重命名分组"
@@ -8530,6 +8531,7 @@ msgid "Rename"
 msgstr "重命名"
 
 #: apps/mobile/components/bot-organize-modal.tsx
+#: apps/mobile/components/inbox-render-item.tsx
 #: apps/mobile/components/inbox-swipe-row.ios.tsx
 #: apps/mobile/lib/use-inbox-chat-actions.ts
 #: apps/web/src/pages/BotContextMenu.tsx
@@ -10691,6 +10693,11 @@ msgstr "此服务器的工具结果超出模型容量。请关闭该服务器的
 #: packages/i18n/src/vault.ts
 msgid "This Space keeps its own vault, so its bots can't use account items."
 msgstr "此空间使用自己的保管库，因此其 Bot 无法使用账户项目。"
+
+#. js-lingui-explicit-id
+#: packages/i18n/src/vault.ts
+msgid "This Space keeps its own vault. Its bots save and use items there, not here: open the Space's settings, then Vault."
+msgstr ""
 
 #: apps/mobile/app/(settings)/model-connection.tsx
 #: apps/web/src/pages/model-settings/connection-controls.tsx

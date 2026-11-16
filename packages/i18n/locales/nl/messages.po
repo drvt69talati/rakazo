@@ -3795,6 +3795,7 @@ msgstr "Kan het item niet verwijderen"
 msgid "Could not rename connection"
 msgstr "Verbinding hernoemen mislukt"
 
+#: apps/mobile/lib/use-inbox-chat-actions.ts
 #: apps/web/src/pages/shell/dialogs.tsx
 msgid "Could not rename section"
 msgstr "Sectie hernoemen mislukt"
@@ -8530,6 +8531,7 @@ msgid "Rename"
 msgstr "Naam wijzigen"
 
 #: apps/mobile/components/bot-organize-modal.tsx
+#: apps/mobile/components/inbox-render-item.tsx
 #: apps/mobile/components/inbox-swipe-row.ios.tsx
 #: apps/mobile/lib/use-inbox-chat-actions.ts
 #: apps/web/src/pages/BotContextMenu.tsx
@@ -10691,6 +10693,11 @@ msgstr "Het toolresultaat van deze server past niet in het model. Zet Toolresult
 #: packages/i18n/src/vault.ts
 msgid "This Space keeps its own vault, so its bots can't use account items."
 msgstr "Deze space heeft een eigen kluis, dus de bots ervan kunnen geen accountitems gebruiken."
+
+#. js-lingui-explicit-id
+#: packages/i18n/src/vault.ts
+msgid "This Space keeps its own vault. Its bots save and use items there, not here: open the Space's settings, then Vault."
+msgstr ""
 
 #: apps/mobile/app/(settings)/model-connection.tsx
 #: apps/web/src/pages/model-settings/connection-controls.tsx
